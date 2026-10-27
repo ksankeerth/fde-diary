@@ -1,0 +1,10 @@
+# Python and uv
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Write-ups are published on other channels, not in this repository
+posts/01-layout-aware-chunking/

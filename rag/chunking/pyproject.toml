@@ -1,0 +1,29 @@
+[project]
+name = "layout-aware-chunking"
+version = "0.1.0"
+description = "Does layout-aware chunking keep what RAG needs? Fixed-size vs recursive vs layout-aware chunking, measured."
+requires-python = ">=3.11"
+dependencies = [
+  "docling>=2.142",                  # parsing: layout, tables, headings (MIT)
+  "docling-core[chunking]>=2.104",   # HybridChunker (MIT)
+  "langchain-text-splitters>=0.3",   # RecursiveCharacterTextSplitter, the common default (MIT)
+  "sentence-transformers>=3",        # embeddings for the retrieval test (Apache-2.0)
+  "python-docx>=1.1",                # plain-text extraction for the naive baseline (MIT)
+  "pypdfium2>=4",                    # plain-text extraction from PDFs (BSD/Apache-2.0)
+  "matplotlib>=3.8",                 # charts
+  "pillow>=10",
+  "sqlite-vec>=0.1.9",
+]
+
+[tool.uv]
+package = false
+
+# CPU-only PyTorch on Linux and Windows (macOS wheels on PyPI are already CPU builds).
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform != 'darwin'" }]
+torchvision = [{ index = "pytorch-cpu", marker = "sys_platform != 'darwin'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

@@ -1,0 +1,66 @@
+[
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "query": "How many Down Sleeping Bag units were sold in the Midwest region in Q1?",
+    "chunker": "fixed_size",
+    "top1_first_lines": "69 332 482 467 1,550\nRain Shell Jacket Mountain 293 483 509 654 1,939\nRain Shell Jacket Pacific 408 573 753 776 2,510\nRain Shell Jacket Southwest 189 259 276 335 1,059\nDown Sleeping Bag Northeast 210 298 355 414 1,277\nDown Sleeping Bag Southeast 152 220 260 252 884",
+    "correct": false,
+    "reason": "no header row"
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "query": "How many Down Sleeping Bag units were sold in the Midwest region in Q1?",
+    "chunker": "layout_stitched",
+    "top1_first_lines": "Sales detail\nTable 1: Units sold by product, region and quarter Product managers should use Table 1 when setting purchase quantities for 2026. Questions about the figures can be sent to the sales operations team, who maintain the source data and publish a revised version if any totals change. The next regional report covers the first half of 2026 and will be published in August 2026.\n| Product                           | Region            | Q1      | Q2      | Q3      | Q4      | Total       |\n|-----------------------------------|-------------------|---------|---------|---------|---------|-------------|\n| Down Sleeping Bag                 | Midwest           | 166     | 227     | 264     | 336     | 993         |\n| Down Sleeping Bag                 | Mountain          | 238     | 270     | 312     | 423     | 1,243       |",
+    "correct": true,
+    "reason": "found"
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "query": "Does the Basic plan include single sign-on?",
+    "chunker": "fixed_size",
+    "top1_first_lines": "stomers can reach an engineer by phone at any hour, every day of the year. Team and Basic requests are handled between 06:00 and 20:00 UTC on weekdays, and requests that arrive outside those hours wait until the next working morning.\nChannels and account management\nBasic includes email support only. Team adds live chat from the Northwind console, and Enterprise adds a dedicated phone line and a shared Slack channel with our on-call engineers.\nEach Enterprise account has a named technical account manager who holds a review call every quarter, covering usage, incidents and upcoming product changes. Team accounts receive one onboarding session in their first month, and Enterprise accounts receive four sessions spread over their first quarter.\nThe public status page at status.northwind.example lists incidents as they are confirmed and keeps a history of the last 24 months. Subscribers to the page receive updates by email or webhook.\nData retention and backups",
+    "correct": false,
+    "reason": "row not in chunk"
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "query": "Does the Basic plan include single sign-on?",
+    "chunker": "layout_stitched",
+    "top1_first_lines": "Northwind Cloud: Service Plans 2026\nChoosing a plan\nComparing the plans\nTable 3: Feature comparison by plan\n| **Feature**                      | **Basic**          | **Team**           | **Enterprise**                  |\n|----------------------------------|--------------------|--------------------|---------------------------------|",
+    "correct": true,
+    "reason": "found"
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "query": "How long are backups kept on the Enterprise plan?",
+    "chunker": "fixed_size",
+    "top1_first_lines": " kept for 365 days; Team backups for 90 days; Basic for 30 days. Backups are taken automatically and stored in a second region that is at least 400 kilometres from the primary one.\nBasic databases are backed up once a day, Team databases every 12 hours and Enterprise databases every 6 hours. Team and Enterprise customers can also restore a database to any second within the retention window, using point-in-time restore.\nNorthwind restores a random sample of backups every week to confirm that they can be read. Failed restore tests open an internal incident, and customers affected by a failed test are notified within 24 hours.\nDeleted resources and closed accounts\nA deleted resource can be recovered for 7 days on Basic, 14 days on Team and 30 days on Enterprise. After that period the resource can only be rebuilt from a backup.\nWhen an account is closed, Northwind keeps its data for 60 days so that the owner can export it. On day 61 the data is deleted from production systems, and a deleti",
+    "correct": false,
+    "reason": "sentence cut"
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "query": "How long are backups kept on the Enterprise plan?",
+    "chunker": "layout_stitched",
+    "top1_first_lines": "Northwind Cloud: Service Plans 2026\nData retention and backups\nBackups\nEnterprise backups are kept for 365 days; Team backups for 90 days; Basic for 30 days. Backups are taken automatically and stored in a second region that is at least 400 kilometres from the primary one.\nBasic databases are backed up once a day, Team databases every 12 hours and Enterprise databases every 6 hours. Team and Enterprise customers can also restore a database to any second within the retention window, using point-in-time restore.\nNorthwind restores a random sample of backups every week to confirm that they can be read. Failed restore tests open an internal incident, and customers affected by a failed test are notified within 24 hours.",
+    "correct": true,
+    "reason": "found"
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "query": "What does Table 1 show?",
+    "chunker": "fixed_size",
+    "top1_first_lines": "95\nClimbing Harness Midwest 113 130 132 155 530\nClimbing Harness Mountain 108 184 160 236 688\nClimbing Harness Pacific 158 233 283 289 963\nClimbing Harness Southwest 77 98 111 140 426\nGaiters Northeast 96 110 120 133 459",
+    "correct": false,
+    "reason": "no caption"
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "query": "What does Table 1 show?",
+    "chunker": "layout_stitched",
+    "top1_first_lines": "Sales detail\nTable 1: Units sold by product, region and quarter Product managers should use Table 1 when setting purchase quantities for 2026. Questions about the figures can be sent to the sales operations team, who maintain the source data and publish a revised version if any totals change. The next regional report covers the first half of 2026 and will be published in August 2026.\n| Product                           | Region            | Q1      | Q2      | Q3      | Q4      | Total       |\n|-----------------------------------|-------------------|---------|---------|---------|---------|-------------|\n| Gaiters                           | Mountain          | 93      | 143     | 163     | 172     | 571         |\n| Gaiters                           | Pacific           | 139     | 164     | 232     | 235     | 770         |",
+    "correct": true,
+    "reason": "found"
+  }
+]

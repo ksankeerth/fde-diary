@@ -1,0 +1,122 @@
+[
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "fixed_size",
+    "chunks": 11,
+    "avg_chars": 935,
+    "table_chunks": 3,
+    "header_pct": 66.7,
+    "caption_pct": 33.3,
+    "rows_intact_pct": 95.0,
+    "heading_pct": 33.3,
+    "cut_sentences_pct": 72.7
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "recursive",
+    "chunks": 13,
+    "avg_chars": 851,
+    "table_chunks": 4,
+    "header_pct": 50.0,
+    "caption_pct": 25.0,
+    "rows_intact_pct": 100.0,
+    "heading_pct": 25.0,
+    "cut_sentences_pct": 23.1
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "layout_default",
+    "chunks": 20,
+    "avg_chars": 728,
+    "table_chunks": 7,
+    "header_pct": 100.0,
+    "caption_pct": 0.0,
+    "rows_intact_pct": 87.5,
+    "heading_pct": 100.0,
+    "cut_sentences_pct": 20.0
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "layout_md_tables",
+    "chunks": 19,
+    "avg_chars": 653,
+    "table_chunks": 6,
+    "header_pct": 100.0,
+    "caption_pct": 0.0,
+    "rows_intact_pct": 100.0,
+    "heading_pct": 100.0,
+    "cut_sentences_pct": 5.3
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "layout_stitched",
+    "chunks": 19,
+    "avg_chars": 673,
+    "table_chunks": 7,
+    "header_pct": 100.0,
+    "caption_pct": 100.0,
+    "rows_intact_pct": 100.0,
+    "heading_pct": 100.0,
+    "cut_sentences_pct": 0.0
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "fixed_size",
+    "chunks": 7,
+    "avg_chars": 843,
+    "table_chunks": 5,
+    "header_pct": 20.0,
+    "caption_pct": 20.0,
+    "rows_intact_pct": 95.6,
+    "heading_pct": 20.0,
+    "cut_sentences_pct": 85.7
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "recursive",
+    "chunks": 8,
+    "avg_chars": 888,
+    "table_chunks": 7,
+    "header_pct": 14.3,
+    "caption_pct": 14.3,
+    "rows_intact_pct": 100.0,
+    "heading_pct": 14.3,
+    "cut_sentences_pct": 0.0
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "layout_default",
+    "chunks": 23,
+    "avg_chars": 745,
+    "table_chunks": 20,
+    "header_pct": 10.0,
+    "caption_pct": 0.0,
+    "rows_intact_pct": 80.0,
+    "heading_pct": 100.0,
+    "cut_sentences_pct": 47.8
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "layout_md_tables",
+    "chunks": 19,
+    "avg_chars": 520,
+    "table_chunks": 16,
+    "header_pct": 12.5,
+    "caption_pct": 0.0,
+    "rows_intact_pct": 98.9,
+    "heading_pct": 100.0,
+    "cut_sentences_pct": 0.0
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "layout_stitched",
+    "chunks": 46,
+    "avg_chars": 673,
+    "table_chunks": 44,
+    "header_pct": 100.0,
+    "caption_pct": 100.0,
+    "rows_intact_pct": 98.9,
+    "heading_pct": 100.0,
+    "cut_sentences_pct": 0.0
+  }
+]

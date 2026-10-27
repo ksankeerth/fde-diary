@@ -1,0 +1,3224 @@
+{
+ "northwind_service_plans.docx": {
+  "header": [
+   "Feature",
+   "Basic",
+   "Team",
+   "Enterprise"
+  ],
+  "rows": [
+   [
+    "Included users",
+    "5",
+    "50",
+    "Unlimited"
+   ],
+   [
+    "Projects",
+    "3",
+    "25",
+    "Unlimited"
+   ],
+   [
+    "Price per user",
+    "$12 / user / month",
+    "$29 / user / month",
+    "$58 / user / month"
+   ],
+   [
+    "Annual prepayment discount",
+    "No",
+    "10%",
+    "15%"
+   ],
+   [
+    "Contract term",
+    "Monthly",
+    "Monthly or annual",
+    "Annual or multi-year"
+   ],
+   [
+    "Block storage per user",
+    "5 GB",
+    "50 GB",
+    "500 GB"
+   ],
+   [
+    "Object storage included",
+    "100 GB",
+    "2 TB",
+    "50 TB"
+   ],
+   [
+    "Egress bandwidth included",
+    "100 GB",
+    "1 TB",
+    "20 TB"
+   ],
+   [
+    "Managed databases",
+    "2",
+    "10",
+    "40"
+   ],
+   [
+    "Maximum database size",
+    "20 GB",
+    "250 GB",
+    "4 TB"
+   ],
+   [
+    "Read replicas",
+    "No",
+    "Up to 2",
+    "Up to 10"
+   ],
+   [
+    "Autoscaling",
+    "No",
+    "Yes",
+    "Yes"
+   ],
+   [
+    "Custom domains",
+    "1",
+    "10",
+    "50"
+   ],
+   [
+    "Webhooks",
+    "5",
+    "50",
+    "500"
+   ],
+   [
+    "API requests per minute",
+    "600",
+    "6,000",
+    "60,000"
+   ],
+   [
+    "Monthly uptime commitment",
+    "99.5%",
+    "99.9%",
+    "99.99%"
+   ],
+   [
+    "SLA service credits",
+    "No",
+    "10% of monthly fee",
+    "25% of monthly fee"
+   ],
+   [
+    "Support channels",
+    "Email only",
+    "Email and chat",
+    "Email, chat and phone"
+   ],
+   [
+    "First response, severity 1",
+    "1 business day",
+    "4 hours",
+    "30 minutes"
+   ],
+   [
+    "Round-the-clock support",
+    "No",
+    "No",
+    "Yes"
+   ],
+   [
+    "Technical account manager",
+    "No",
+    "No",
+    "Yes"
+   ],
+   [
+    "Onboarding sessions",
+    "No",
+    "1 session",
+    "4 sessions"
+   ],
+   [
+    "Backup retention",
+    "30 days",
+    "90 days",
+    "365 days"
+   ],
+   [
+    "Backup frequency",
+    "Once a day",
+    "Every 12 hours",
+    "Every 6 hours"
+   ],
+   [
+    "Deleted resource recovery",
+    "7 days",
+    "14 days",
+    "30 days"
+   ],
+   [
+    "Point-in-time restore",
+    "No",
+    "Yes",
+    "Yes"
+   ],
+   [
+    "Cross-region replication",
+    "No",
+    "Optional",
+    "Yes"
+   ],
+   [
+    "Single sign-on (SAML)",
+    "No",
+    "Yes",
+    "Yes"
+   ],
+   [
+    "Multi-factor authentication",
+    "Yes",
+    "Yes",
+    "Yes"
+   ],
+   [
+    "Role-based access control",
+    "Fixed roles",
+    "Custom roles",
+    "Custom roles with approvals"
+   ],
+   [
+    "Audit log retention",
+    "30 days",
+    "6 months",
+    "12 months"
+   ],
+   [
+    "Customer-managed encryption keys",
+    "No",
+    "No",
+    "Yes"
+   ],
+   [
+    "Private networking",
+    "No",
+    "Yes",
+    "Yes"
+   ],
+   [
+    "IP allow list size",
+    "10 entries",
+    "100 entries",
+    "1,000 entries"
+   ],
+   [
+    "Compliance reports",
+    "Public trust page",
+    "SOC 2 summary",
+    "SOC 2 Type II and ISO 27001"
+   ],
+   [
+    "Penetration test summary",
+    "No",
+    "No",
+    "Yes"
+   ],
+   [
+    "Data residency choice",
+    "Closest region",
+    "3 regions",
+    "14 regions"
+   ],
+   [
+    "Team workspaces",
+    "1",
+    "10",
+    "100"
+   ],
+   [
+    "Usage alerts",
+    "Email",
+    "Email and Slack",
+    "Email, Slack and PagerDuty"
+   ],
+   [
+    "Invoice payment",
+    "Card only",
+    "Card or invoice",
+    "Card, invoice or purchase order"
+   ]
+  ],
+  "caption": "Table 3: Feature comparison by plan",
+  "heading": "Comparing the plans",
+  "row_pattern": "plan feature",
+  "row_questions": [
+   {
+    "row": 27,
+    "question": "Does the Basic plan include single sign-on?"
+   },
+   {
+    "row": 27,
+    "question": "Does the Team plan include single sign-on?"
+   },
+   {
+    "row": 27,
+    "question": "Does the Enterprise plan include single sign-on?"
+   },
+   {
+    "row": 31,
+    "question": "Can I use my own encryption keys on the Basic plan?"
+   },
+   {
+    "row": 31,
+    "question": "Can I use my own encryption keys on the Team plan?"
+   },
+   {
+    "row": 31,
+    "question": "Can I use my own encryption keys on the Enterprise plan?"
+   },
+   {
+    "row": 32,
+    "question": "Is private networking available on the Basic plan?"
+   },
+   {
+    "row": 32,
+    "question": "Is private networking available on the Team plan?"
+   },
+   {
+    "row": 32,
+    "question": "Is private networking available on the Enterprise plan?"
+   },
+   {
+    "row": 25,
+    "question": "Does the Basic plan support point-in-time restore?"
+   },
+   {
+    "row": 25,
+    "question": "Does the Team plan support point-in-time restore?"
+   },
+   {
+    "row": 25,
+    "question": "Does the Enterprise plan support point-in-time restore?"
+   },
+   {
+    "row": 26,
+    "question": "Is cross-region replication included in the Basic plan?"
+   },
+   {
+    "row": 26,
+    "question": "Is cross-region replication included in the Team plan?"
+   },
+   {
+    "row": 26,
+    "question": "Is cross-region replication included in the Enterprise plan?"
+   },
+   {
+    "row": 20,
+    "question": "Do I get a technical account manager on the Basic plan?"
+   },
+   {
+    "row": 20,
+    "question": "Do I get a technical account manager on the Team plan?"
+   },
+   {
+    "row": 20,
+    "question": "Do I get a technical account manager on the Enterprise plan?"
+   },
+   {
+    "row": 0,
+    "question": "How many users does the Basic plan include?"
+   },
+   {
+    "row": 0,
+    "question": "How many users does the Team plan include?"
+   },
+   {
+    "row": 0,
+    "question": "How many users does the Enterprise plan include?"
+   },
+   {
+    "row": 6,
+    "question": "How much object storage is included in the Basic plan?"
+   },
+   {
+    "row": 6,
+    "question": "How much object storage is included in the Team plan?"
+   },
+   {
+    "row": 6,
+    "question": "How much object storage is included in the Enterprise plan?"
+   },
+   {
+    "row": 14,
+    "question": "What is the API rate limit on the Basic plan?"
+   },
+   {
+    "row": 14,
+    "question": "What is the API rate limit on the Team plan?"
+   },
+   {
+    "row": 14,
+    "question": "What is the API rate limit on the Enterprise plan?"
+   },
+   {
+    "row": 10,
+    "question": "How many read replicas can I have on the Basic plan?"
+   },
+   {
+    "row": 10,
+    "question": "How many read replicas can I have on the Team plan?"
+   },
+   {
+    "row": 10,
+    "question": "How many read replicas can I have on the Enterprise plan?"
+   },
+   {
+    "row": 17,
+    "question": "How can I contact support on the Basic plan?"
+   },
+   {
+    "row": 17,
+    "question": "How can I contact support on the Team plan?"
+   },
+   {
+    "row": 17,
+    "question": "How can I contact support on the Enterprise plan?"
+   },
+   {
+    "row": 15,
+    "question": "What uptime does the Basic plan guarantee?"
+   },
+   {
+    "row": 15,
+    "question": "What uptime does the Team plan guarantee?"
+   },
+   {
+    "row": 15,
+    "question": "What uptime does the Enterprise plan guarantee?"
+   },
+   {
+    "row": 35,
+    "question": "Can I see penetration test results on the Basic plan?"
+   },
+   {
+    "row": 35,
+    "question": "Can I see penetration test results on the Team plan?"
+   },
+   {
+    "row": 35,
+    "question": "Can I see penetration test results on the Enterprise plan?"
+   },
+   {
+    "row": 4,
+    "question": "What contract terms does the Basic plan offer?"
+   },
+   {
+    "row": 4,
+    "question": "What contract terms does the Team plan offer?"
+   },
+   {
+    "row": 4,
+    "question": "What contract terms does the Enterprise plan offer?"
+   },
+   {
+    "row": 38,
+    "question": "Where are usage alerts sent on the Basic plan?"
+   },
+   {
+    "row": 38,
+    "question": "Where are usage alerts sent on the Team plan?"
+   },
+   {
+    "row": 38,
+    "question": "Where are usage alerts sent on the Enterprise plan?"
+   },
+   {
+    "row": 9,
+    "question": "How large can a database be on the Basic plan?"
+   },
+   {
+    "row": 9,
+    "question": "How large can a database be on the Team plan?"
+   },
+   {
+    "row": 9,
+    "question": "How large can a database be on the Enterprise plan?"
+   },
+   {
+    "row": 12,
+    "question": "How many custom domains can I add on the Basic plan?"
+   },
+   {
+    "row": 12,
+    "question": "How many custom domains can I add on the Team plan?"
+   },
+   {
+    "row": 12,
+    "question": "How many custom domains can I add on the Enterprise plan?"
+   },
+   {
+    "row": 7,
+    "question": "How much egress bandwidth does the Basic plan include?"
+   },
+   {
+    "row": 7,
+    "question": "How much egress bandwidth does the Team plan include?"
+   },
+   {
+    "row": 7,
+    "question": "How much egress bandwidth does the Enterprise plan include?"
+   }
+  ],
+  "facts": [
+   {
+    "question": "How long are backups kept on the Enterprise plan?",
+    "sentence": "Enterprise backups are kept for 365 days; Team backups for 90 days; Basic for 30 days."
+   },
+   {
+    "question": "How often are Enterprise databases backed up?",
+    "sentence": "Basic databases are backed up once a day, Team databases every 12 hours and Enterprise databases every 6 hours."
+   },
+   {
+    "question": "How long can a deleted resource be recovered on the Team plan?",
+    "sentence": "A deleted resource can be recovered for 7 days on Basic, 14 days on Team and 30 days on Enterprise."
+   },
+   {
+    "question": "How long does Northwind keep data after an account is closed?",
+    "sentence": "When an account is closed, Northwind keeps its data for 60 days so that the owner can export it."
+   },
+   {
+    "question": "What is the charge for paying an invoice late?",
+    "sentence": "Payments received more than 15 days late incur a charge of 1.5% of the amount due."
+   },
+   {
+    "question": "How long is the free trial of the Team plan?",
+    "sentence": "A 30-day trial of the Team plan is available to every new account."
+   },
+   {
+    "question": "How much does extra storage cost?",
+    "sentence": "Storage beyond the included amount costs $0.021 per GB per month, and egress beyond the included bandwidth costs $0.05 per GB."
+   },
+   {
+    "question": "How quickly are critical vulnerabilities fixed?",
+    "sentence": "Critical vulnerabilities found by the test are fixed within 7 days, and high-severity ones within 30 days."
+   },
+   {
+    "question": "How much notice do I need to cancel a monthly contract?",
+    "sentence": "Cancellations require 30 days' written notice on monthly contracts."
+   },
+   {
+    "question": "How quickly does revoking a customer-managed key make the data unreadable?",
+    "sentence": "Enterprise customers can supply their own encryption keys, which they can revoke at any time; revoking a key makes the data unreadable within 15 minutes."
+   },
+   {
+    "question": "What hours is support available on the Team plan?",
+    "sentence": "Team and Basic requests are handled between 06:00 and 20:00 UTC on weekdays, and requests that arrive outside those hours wait until the next working morning."
+   },
+   {
+    "question": "How often does the technical account manager hold a review call?",
+    "sentence": "Each Enterprise account has a named technical account manager who holds a review call every quarter, covering usage, incidents and upcoming product changes."
+   },
+   {
+    "question": "What discount does annual prepayment give on the Team plan?",
+    "sentence": "Annual prepayment earns a discount of 10% on Team and 15% on Enterprise."
+   },
+   {
+    "question": "How many regions can Team customers choose from for their data?",
+    "sentence": "Enterprise customers can pick any of the 14 regions, Team customers can pick from 3 regions in their continent, and Basic accounts are placed in the region closest to the account owner."
+   }
+  ],
+  "table_questions": [
+   "What does Table 3 compare?",
+   "Which table shows how the plans differ?",
+   "What is Table 3 about?"
+  ]
+ },
+ "trailhead_regional_sales.pdf": {
+  "header": [
+   "Product",
+   "Region",
+   "Q1",
+   "Q2",
+   "Q3",
+   "Q4",
+   "Total"
+  ],
+  "rows": [
+   [
+    "Trail Shoes",
+    "Northeast",
+    "368",
+    "508",
+    "547",
+    "563",
+    "1,986"
+   ],
+   [
+    "Trail Shoes",
+    "Southeast",
+    "230",
+    "457",
+    "454",
+    "428",
+    "1,569"
+   ],
+   [
+    "Trail Shoes",
+    "Midwest",
+    "311",
+    "353",
+    "550",
+    "696",
+    "1,910"
+   ],
+   [
+    "Trail Shoes",
+    "Mountain",
+    "333",
+    "433",
+    "493",
+    "716",
+    "1,975"
+   ],
+   [
+    "Trail Shoes",
+    "Pacific",
+    "600",
+    "632",
+    "725",
+    "1053",
+    "3,010"
+   ],
+   [
+    "Trail Shoes",
+    "Southwest",
+    "258",
+    "339",
+    "350",
+    "455",
+    "1,402"
+   ],
+   [
+    "Rain Shell Jacket",
+    "Northeast",
+    "275",
+    "456",
+    "466",
+    "536",
+    "1,733"
+   ],
+   [
+    "Rain Shell Jacket",
+    "Southeast",
+    "207",
+    "280",
+    "292",
+    "469",
+    "1,248"
+   ],
+   [
+    "Rain Shell Jacket",
+    "Midwest",
+    "269",
+    "332",
+    "482",
+    "467",
+    "1,550"
+   ],
+   [
+    "Rain Shell Jacket",
+    "Mountain",
+    "293",
+    "483",
+    "509",
+    "654",
+    "1,939"
+   ],
+   [
+    "Rain Shell Jacket",
+    "Pacific",
+    "408",
+    "573",
+    "753",
+    "776",
+    "2,510"
+   ],
+   [
+    "Rain Shell Jacket",
+    "Southwest",
+    "189",
+    "259",
+    "276",
+    "335",
+    "1,059"
+   ],
+   [
+    "Down Sleeping Bag",
+    "Northeast",
+    "210",
+    "298",
+    "355",
+    "414",
+    "1,277"
+   ],
+   [
+    "Down Sleeping Bag",
+    "Southeast",
+    "152",
+    "220",
+    "260",
+    "252",
+    "884"
+   ],
+   [
+    "Down Sleeping Bag",
+    "Midwest",
+    "166",
+    "227",
+    "264",
+    "336",
+    "993"
+   ],
+   [
+    "Down Sleeping Bag",
+    "Mountain",
+    "238",
+    "270",
+    "312",
+    "423",
+    "1,243"
+   ],
+   [
+    "Down Sleeping Bag",
+    "Pacific",
+    "261",
+    "381",
+    "510",
+    "574",
+    "1,726"
+   ],
+   [
+    "Down Sleeping Bag",
+    "Southwest",
+    "137",
+    "165",
+    "192",
+    "219",
+    "713"
+   ],
+   [
+    "Two-Person Tent",
+    "Northeast",
+    "150",
+    "197",
+    "217",
+    "294",
+    "858"
+   ],
+   [
+    "Two-Person Tent",
+    "Southeast",
+    "126",
+    "173",
+    "208",
+    "200",
+    "707"
+   ],
+   [
+    "Two-Person Tent",
+    "Midwest",
+    "125",
+    "162",
+    "212",
+    "263",
+    "762"
+   ],
+   [
+    "Two-Person Tent",
+    "Mountain",
+    "193",
+    "209",
+    "214",
+    "322",
+    "938"
+   ],
+   [
+    "Two-Person Tent",
+    "Pacific",
+    "211",
+    "271",
+    "315",
+    "458",
+    "1,255"
+   ],
+   [
+    "Two-Person Tent",
+    "Southwest",
+    "103",
+    "114",
+    "169",
+    "145",
+    "531"
+   ],
+   [
+    "Trekking Poles",
+    "Northeast",
+    "262",
+    "362",
+    "326",
+    "525",
+    "1,475"
+   ],
+   [
+    "Trekking Poles",
+    "Southeast",
+    "177",
+    "291",
+    "340",
+    "296",
+    "1,104"
+   ],
+   [
+    "Trekking Poles",
+    "Midwest",
+    "224",
+    "266",
+    "330",
+    "449",
+    "1,269"
+   ],
+   [
+    "Trekking Poles",
+    "Mountain",
+    "305",
+    "388",
+    "432",
+    "437",
+    "1,562"
+   ],
+   [
+    "Trekking Poles",
+    "Pacific",
+    "429",
+    "468",
+    "618",
+    "673",
+    "2,188"
+   ],
+   [
+    "Trekking Poles",
+    "Southwest",
+    "141",
+    "196",
+    "206",
+    "221",
+    "764"
+   ],
+   [
+    "Hydration Pack",
+    "Northeast",
+    "317",
+    "334",
+    "415",
+    "511",
+    "1,577"
+   ],
+   [
+    "Hydration Pack",
+    "Southeast",
+    "226",
+    "278",
+    "309",
+    "434",
+    "1,247"
+   ],
+   [
+    "Hydration Pack",
+    "Midwest",
+    "288",
+    "384",
+    "435",
+    "377",
+    "1,484"
+   ],
+   [
+    "Hydration Pack",
+    "Mountain",
+    "341",
+    "370",
+    "499",
+    "534",
+    "1,744"
+   ],
+   [
+    "Hydration Pack",
+    "Pacific",
+    "354",
+    "543",
+    "515",
+    "637",
+    "2,049"
+   ],
+   [
+    "Hydration Pack",
+    "Southwest",
+    "153",
+    "241",
+    "205",
+    "331",
+    "930"
+   ],
+   [
+    "Camp Stove",
+    "Northeast",
+    "213",
+    "204",
+    "297",
+    "337",
+    "1,051"
+   ],
+   [
+    "Camp Stove",
+    "Southeast",
+    "135",
+    "176",
+    "237",
+    "272",
+    "820"
+   ],
+   [
+    "Camp Stove",
+    "Midwest",
+    "142",
+    "178",
+    "239",
+    "301",
+    "860"
+   ],
+   [
+    "Camp Stove",
+    "Mountain",
+    "215",
+    "242",
+    "277",
+    "338",
+    "1,072"
+   ],
+   [
+    "Camp Stove",
+    "Pacific",
+    "313",
+    "356",
+    "481",
+    "582",
+    "1,732"
+   ],
+   [
+    "Camp Stove",
+    "Southwest",
+    "89",
+    "117",
+    "168",
+    "222",
+    "596"
+   ],
+   [
+    "Headlamp",
+    "Northeast",
+    "366",
+    "444",
+    "445",
+    "701",
+    "1,956"
+   ],
+   [
+    "Headlamp",
+    "Southeast",
+    "284",
+    "407",
+    "470",
+    "471",
+    "1,632"
+   ],
+   [
+    "Headlamp",
+    "Midwest",
+    "286",
+    "342",
+    "389",
+    "622",
+    "1,639"
+   ],
+   [
+    "Headlamp",
+    "Mountain",
+    "343",
+    "557",
+    "663",
+    "784",
+    "2,347"
+   ],
+   [
+    "Headlamp",
+    "Pacific",
+    "492",
+    "687",
+    "899",
+    "821",
+    "2,899"
+   ],
+   [
+    "Headlamp",
+    "Southwest",
+    "190",
+    "256",
+    "344",
+    "299",
+    "1,089"
+   ],
+   [
+    "Wool Base Layer",
+    "Northeast",
+    "257",
+    "306",
+    "345",
+    "374",
+    "1,282"
+   ],
+   [
+    "Wool Base Layer",
+    "Southeast",
+    "170",
+    "218",
+    "295",
+    "265",
+    "948"
+   ],
+   [
+    "Wool Base Layer",
+    "Midwest",
+    "216",
+    "250",
+    "329",
+    "300",
+    "1,095"
+   ],
+   [
+    "Wool Base Layer",
+    "Mountain",
+    "267",
+    "392",
+    "351",
+    "473",
+    "1,483"
+   ],
+   [
+    "Wool Base Layer",
+    "Pacific",
+    "279",
+    "514",
+    "491",
+    "727",
+    "2,011"
+   ],
+   [
+    "Wool Base Layer",
+    "Southwest",
+    "127",
+    "171",
+    "179",
+    "223",
+    "700"
+   ],
+   [
+    "Insulated Bottle",
+    "Northeast",
+    "346",
+    "375",
+    "393",
+    "567",
+    "1,681"
+   ],
+   [
+    "Insulated Bottle",
+    "Southeast",
+    "251",
+    "399",
+    "347",
+    "474",
+    "1,471"
+   ],
+   [
+    "Insulated Bottle",
+    "Midwest",
+    "348",
+    "365",
+    "506",
+    "438",
+    "1,657"
+   ],
+   [
+    "Insulated Bottle",
+    "Mountain",
+    "372",
+    "522",
+    "476",
+    "603",
+    "1,973"
+   ],
+   [
+    "Insulated Bottle",
+    "Pacific",
+    "478",
+    "538",
+    "768",
+    "920",
+    "2,704"
+   ],
+   [
+    "Insulated Bottle",
+    "Southwest",
+    "167",
+    "254",
+    "327",
+    "316",
+    "1,064"
+   ],
+   [
+    "Daypack 28L",
+    "Northeast",
+    "273",
+    "349",
+    "352",
+    "447",
+    "1,421"
+   ],
+   [
+    "Daypack 28L",
+    "Southeast",
+    "175",
+    "274",
+    "285",
+    "357",
+    "1,091"
+   ],
+   [
+    "Daypack 28L",
+    "Midwest",
+    "281",
+    "268",
+    "443",
+    "512",
+    "1,504"
+   ],
+   [
+    "Daypack 28L",
+    "Mountain",
+    "320",
+    "358",
+    "394",
+    "590",
+    "1,662"
+   ],
+   [
+    "Daypack 28L",
+    "Pacific",
+    "424",
+    "635",
+    "521",
+    "598",
+    "2,178"
+   ],
+   [
+    "Daypack 28L",
+    "Southwest",
+    "180",
+    "282",
+    "225",
+    "246",
+    "933"
+   ],
+   [
+    "Water Filter",
+    "Northeast",
+    "151",
+    "159",
+    "198",
+    "228",
+    "736"
+   ],
+   [
+    "Water Filter",
+    "Southeast",
+    "118",
+    "144",
+    "146",
+    "230",
+    "638"
+   ],
+   [
+    "Water Filter",
+    "Midwest",
+    "107",
+    "147",
+    "191",
+    "202",
+    "647"
+   ],
+   [
+    "Water Filter",
+    "Mountain",
+    "181",
+    "231",
+    "234",
+    "318",
+    "964"
+   ],
+   [
+    "Water Filter",
+    "Pacific",
+    "199",
+    "287",
+    "359",
+    "430",
+    "1,275"
+   ],
+   [
+    "Water Filter",
+    "Southwest",
+    "85",
+    "128",
+    "102",
+    "136",
+    "451"
+   ],
+   [
+    "Climbing Harness",
+    "Northeast",
+    "131",
+    "129",
+    "186",
+    "182",
+    "628"
+   ],
+   [
+    "Climbing Harness",
+    "Southeast",
+    "90",
+    "119",
+    "148",
+    "138",
+    "495"
+   ],
+   [
+    "Climbing Harness",
+    "Midwest",
+    "113",
+    "130",
+    "132",
+    "155",
+    "530"
+   ],
+   [
+    "Climbing Harness",
+    "Mountain",
+    "108",
+    "184",
+    "160",
+    "236",
+    "688"
+   ],
+   [
+    "Climbing Harness",
+    "Pacific",
+    "158",
+    "233",
+    "283",
+    "289",
+    "963"
+   ],
+   [
+    "Climbing Harness",
+    "Southwest",
+    "77",
+    "98",
+    "111",
+    "140",
+    "426"
+   ],
+   [
+    "Gaiters",
+    "Northeast",
+    "96",
+    "110",
+    "120",
+    "133",
+    "459"
+   ],
+   [
+    "Gaiters",
+    "Southeast",
+    "72",
+    "112",
+    "91",
+    "134",
+    "409"
+   ],
+   [
+    "Gaiters",
+    "Midwest",
+    "84",
+    "101",
+    "106",
+    "161",
+    "452"
+   ],
+   [
+    "Gaiters",
+    "Mountain",
+    "93",
+    "143",
+    "163",
+    "172",
+    "571"
+   ],
+   [
+    "Gaiters",
+    "Pacific",
+    "139",
+    "164",
+    "232",
+    "235",
+    "770"
+   ],
+   [
+    "Gaiters",
+    "Southwest",
+    "53",
+    "63",
+    "99",
+    "109",
+    "324"
+   ],
+   [
+    "Fleece Pullover",
+    "Northeast",
+    "240",
+    "369",
+    "427",
+    "382",
+    "1,418"
+   ],
+   [
+    "Fleece Pullover",
+    "Southeast",
+    "243",
+    "245",
+    "360",
+    "361",
+    "1,209"
+   ],
+   [
+    "Fleece Pullover",
+    "Midwest",
+    "194",
+    "302",
+    "314",
+    "442",
+    "1,252"
+   ],
+   [
+    "Fleece Pullover",
+    "Mountain",
+    "244",
+    "319",
+    "436",
+    "517",
+    "1,516"
+   ],
+   [
+    "Fleece Pullover",
+    "Pacific",
+    "307",
+    "404",
+    "619",
+    "705",
+    "2,035"
+   ],
+   [
+    "Fleece Pullover",
+    "Southwest",
+    "149",
+    "174",
+    "253",
+    "290",
+    "866"
+   ]
+  ],
+  "caption": "Table 1: Units sold by product, region and quarter",
+  "heading": "Sales detail",
+  "row_pattern": "number lookup",
+  "row_questions": [
+   {
+    "row": 0,
+    "column": 2,
+    "question": "How many Trail Shoes units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 0,
+    "column": 3,
+    "question": "How many Trail Shoes units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 0,
+    "column": 4,
+    "question": "How many Trail Shoes units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 0,
+    "column": 5,
+    "question": "How many Trail Shoes units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 1,
+    "column": 2,
+    "question": "How many Trail Shoes units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 1,
+    "column": 3,
+    "question": "How many Trail Shoes units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 1,
+    "column": 4,
+    "question": "How many Trail Shoes units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 1,
+    "column": 5,
+    "question": "How many Trail Shoes units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 2,
+    "column": 2,
+    "question": "How many Trail Shoes units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 2,
+    "column": 3,
+    "question": "How many Trail Shoes units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 2,
+    "column": 4,
+    "question": "How many Trail Shoes units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 2,
+    "column": 5,
+    "question": "How many Trail Shoes units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 3,
+    "column": 2,
+    "question": "How many Trail Shoes units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 3,
+    "column": 3,
+    "question": "How many Trail Shoes units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 3,
+    "column": 4,
+    "question": "How many Trail Shoes units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 3,
+    "column": 5,
+    "question": "How many Trail Shoes units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 4,
+    "column": 2,
+    "question": "How many Trail Shoes units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 4,
+    "column": 3,
+    "question": "How many Trail Shoes units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 4,
+    "column": 4,
+    "question": "How many Trail Shoes units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 4,
+    "column": 5,
+    "question": "How many Trail Shoes units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 5,
+    "column": 2,
+    "question": "How many Trail Shoes units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 5,
+    "column": 3,
+    "question": "How many Trail Shoes units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 5,
+    "column": 4,
+    "question": "How many Trail Shoes units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 5,
+    "column": 5,
+    "question": "How many Trail Shoes units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 6,
+    "column": 2,
+    "question": "How many Rain Shell Jacket units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 6,
+    "column": 3,
+    "question": "How many Rain Shell Jacket units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 6,
+    "column": 4,
+    "question": "How many Rain Shell Jacket units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 6,
+    "column": 5,
+    "question": "How many Rain Shell Jacket units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 7,
+    "column": 2,
+    "question": "How many Rain Shell Jacket units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 7,
+    "column": 3,
+    "question": "How many Rain Shell Jacket units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 7,
+    "column": 4,
+    "question": "How many Rain Shell Jacket units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 7,
+    "column": 5,
+    "question": "How many Rain Shell Jacket units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 8,
+    "column": 2,
+    "question": "How many Rain Shell Jacket units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 8,
+    "column": 3,
+    "question": "How many Rain Shell Jacket units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 8,
+    "column": 4,
+    "question": "How many Rain Shell Jacket units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 8,
+    "column": 5,
+    "question": "How many Rain Shell Jacket units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 9,
+    "column": 2,
+    "question": "How many Rain Shell Jacket units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 9,
+    "column": 3,
+    "question": "How many Rain Shell Jacket units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 9,
+    "column": 4,
+    "question": "How many Rain Shell Jacket units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 9,
+    "column": 5,
+    "question": "How many Rain Shell Jacket units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 10,
+    "column": 2,
+    "question": "How many Rain Shell Jacket units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 10,
+    "column": 3,
+    "question": "How many Rain Shell Jacket units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 10,
+    "column": 4,
+    "question": "How many Rain Shell Jacket units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 10,
+    "column": 5,
+    "question": "How many Rain Shell Jacket units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 11,
+    "column": 2,
+    "question": "How many Rain Shell Jacket units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 11,
+    "column": 3,
+    "question": "How many Rain Shell Jacket units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 11,
+    "column": 4,
+    "question": "How many Rain Shell Jacket units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 11,
+    "column": 5,
+    "question": "How many Rain Shell Jacket units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 12,
+    "column": 2,
+    "question": "How many Down Sleeping Bag units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 12,
+    "column": 3,
+    "question": "How many Down Sleeping Bag units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 12,
+    "column": 4,
+    "question": "How many Down Sleeping Bag units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 12,
+    "column": 5,
+    "question": "How many Down Sleeping Bag units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 13,
+    "column": 2,
+    "question": "How many Down Sleeping Bag units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 13,
+    "column": 3,
+    "question": "How many Down Sleeping Bag units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 13,
+    "column": 4,
+    "question": "How many Down Sleeping Bag units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 13,
+    "column": 5,
+    "question": "How many Down Sleeping Bag units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 14,
+    "column": 2,
+    "question": "How many Down Sleeping Bag units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 14,
+    "column": 3,
+    "question": "How many Down Sleeping Bag units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 14,
+    "column": 4,
+    "question": "How many Down Sleeping Bag units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 14,
+    "column": 5,
+    "question": "How many Down Sleeping Bag units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 15,
+    "column": 2,
+    "question": "How many Down Sleeping Bag units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 15,
+    "column": 3,
+    "question": "How many Down Sleeping Bag units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 15,
+    "column": 4,
+    "question": "How many Down Sleeping Bag units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 15,
+    "column": 5,
+    "question": "How many Down Sleeping Bag units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 16,
+    "column": 2,
+    "question": "How many Down Sleeping Bag units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 16,
+    "column": 3,
+    "question": "How many Down Sleeping Bag units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 16,
+    "column": 4,
+    "question": "How many Down Sleeping Bag units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 16,
+    "column": 5,
+    "question": "How many Down Sleeping Bag units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 17,
+    "column": 2,
+    "question": "How many Down Sleeping Bag units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 17,
+    "column": 3,
+    "question": "How many Down Sleeping Bag units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 17,
+    "column": 4,
+    "question": "How many Down Sleeping Bag units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 17,
+    "column": 5,
+    "question": "How many Down Sleeping Bag units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 18,
+    "column": 2,
+    "question": "How many Two-Person Tent units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 18,
+    "column": 3,
+    "question": "How many Two-Person Tent units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 18,
+    "column": 4,
+    "question": "How many Two-Person Tent units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 18,
+    "column": 5,
+    "question": "How many Two-Person Tent units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 19,
+    "column": 2,
+    "question": "How many Two-Person Tent units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 19,
+    "column": 3,
+    "question": "How many Two-Person Tent units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 19,
+    "column": 4,
+    "question": "How many Two-Person Tent units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 19,
+    "column": 5,
+    "question": "How many Two-Person Tent units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 20,
+    "column": 2,
+    "question": "How many Two-Person Tent units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 20,
+    "column": 3,
+    "question": "How many Two-Person Tent units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 20,
+    "column": 4,
+    "question": "How many Two-Person Tent units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 20,
+    "column": 5,
+    "question": "How many Two-Person Tent units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 21,
+    "column": 2,
+    "question": "How many Two-Person Tent units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 21,
+    "column": 3,
+    "question": "How many Two-Person Tent units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 21,
+    "column": 4,
+    "question": "How many Two-Person Tent units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 21,
+    "column": 5,
+    "question": "How many Two-Person Tent units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 22,
+    "column": 2,
+    "question": "How many Two-Person Tent units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 22,
+    "column": 3,
+    "question": "How many Two-Person Tent units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 22,
+    "column": 4,
+    "question": "How many Two-Person Tent units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 22,
+    "column": 5,
+    "question": "How many Two-Person Tent units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 23,
+    "column": 2,
+    "question": "How many Two-Person Tent units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 23,
+    "column": 3,
+    "question": "How many Two-Person Tent units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 23,
+    "column": 4,
+    "question": "How many Two-Person Tent units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 23,
+    "column": 5,
+    "question": "How many Two-Person Tent units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 24,
+    "column": 2,
+    "question": "How many Trekking Poles units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 24,
+    "column": 3,
+    "question": "How many Trekking Poles units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 24,
+    "column": 4,
+    "question": "How many Trekking Poles units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 24,
+    "column": 5,
+    "question": "How many Trekking Poles units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 25,
+    "column": 2,
+    "question": "How many Trekking Poles units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 25,
+    "column": 3,
+    "question": "How many Trekking Poles units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 25,
+    "column": 4,
+    "question": "How many Trekking Poles units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 25,
+    "column": 5,
+    "question": "How many Trekking Poles units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 26,
+    "column": 2,
+    "question": "How many Trekking Poles units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 26,
+    "column": 3,
+    "question": "How many Trekking Poles units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 26,
+    "column": 4,
+    "question": "How many Trekking Poles units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 26,
+    "column": 5,
+    "question": "How many Trekking Poles units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 27,
+    "column": 2,
+    "question": "How many Trekking Poles units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 27,
+    "column": 3,
+    "question": "How many Trekking Poles units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 27,
+    "column": 4,
+    "question": "How many Trekking Poles units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 27,
+    "column": 5,
+    "question": "How many Trekking Poles units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 28,
+    "column": 2,
+    "question": "How many Trekking Poles units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 28,
+    "column": 3,
+    "question": "How many Trekking Poles units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 28,
+    "column": 4,
+    "question": "How many Trekking Poles units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 28,
+    "column": 5,
+    "question": "How many Trekking Poles units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 29,
+    "column": 2,
+    "question": "How many Trekking Poles units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 29,
+    "column": 3,
+    "question": "How many Trekking Poles units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 29,
+    "column": 4,
+    "question": "How many Trekking Poles units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 29,
+    "column": 5,
+    "question": "How many Trekking Poles units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 30,
+    "column": 2,
+    "question": "How many Hydration Pack units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 30,
+    "column": 3,
+    "question": "How many Hydration Pack units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 30,
+    "column": 4,
+    "question": "How many Hydration Pack units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 30,
+    "column": 5,
+    "question": "How many Hydration Pack units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 31,
+    "column": 2,
+    "question": "How many Hydration Pack units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 31,
+    "column": 3,
+    "question": "How many Hydration Pack units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 31,
+    "column": 4,
+    "question": "How many Hydration Pack units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 31,
+    "column": 5,
+    "question": "How many Hydration Pack units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 32,
+    "column": 2,
+    "question": "How many Hydration Pack units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 32,
+    "column": 3,
+    "question": "How many Hydration Pack units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 32,
+    "column": 4,
+    "question": "How many Hydration Pack units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 32,
+    "column": 5,
+    "question": "How many Hydration Pack units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 33,
+    "column": 2,
+    "question": "How many Hydration Pack units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 33,
+    "column": 3,
+    "question": "How many Hydration Pack units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 33,
+    "column": 4,
+    "question": "How many Hydration Pack units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 33,
+    "column": 5,
+    "question": "How many Hydration Pack units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 34,
+    "column": 2,
+    "question": "How many Hydration Pack units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 34,
+    "column": 3,
+    "question": "How many Hydration Pack units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 34,
+    "column": 4,
+    "question": "How many Hydration Pack units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 34,
+    "column": 5,
+    "question": "How many Hydration Pack units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 35,
+    "column": 2,
+    "question": "How many Hydration Pack units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 35,
+    "column": 3,
+    "question": "How many Hydration Pack units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 35,
+    "column": 4,
+    "question": "How many Hydration Pack units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 35,
+    "column": 5,
+    "question": "How many Hydration Pack units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 36,
+    "column": 2,
+    "question": "How many Camp Stove units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 36,
+    "column": 3,
+    "question": "How many Camp Stove units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 36,
+    "column": 4,
+    "question": "How many Camp Stove units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 36,
+    "column": 5,
+    "question": "How many Camp Stove units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 37,
+    "column": 2,
+    "question": "How many Camp Stove units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 37,
+    "column": 3,
+    "question": "How many Camp Stove units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 37,
+    "column": 4,
+    "question": "How many Camp Stove units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 37,
+    "column": 5,
+    "question": "How many Camp Stove units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 38,
+    "column": 2,
+    "question": "How many Camp Stove units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 38,
+    "column": 3,
+    "question": "How many Camp Stove units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 38,
+    "column": 4,
+    "question": "How many Camp Stove units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 38,
+    "column": 5,
+    "question": "How many Camp Stove units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 39,
+    "column": 2,
+    "question": "How many Camp Stove units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 39,
+    "column": 3,
+    "question": "How many Camp Stove units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 39,
+    "column": 4,
+    "question": "How many Camp Stove units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 39,
+    "column": 5,
+    "question": "How many Camp Stove units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 40,
+    "column": 2,
+    "question": "How many Camp Stove units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 40,
+    "column": 3,
+    "question": "How many Camp Stove units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 40,
+    "column": 4,
+    "question": "How many Camp Stove units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 40,
+    "column": 5,
+    "question": "How many Camp Stove units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 41,
+    "column": 2,
+    "question": "How many Camp Stove units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 41,
+    "column": 3,
+    "question": "How many Camp Stove units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 41,
+    "column": 4,
+    "question": "How many Camp Stove units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 41,
+    "column": 5,
+    "question": "How many Camp Stove units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 42,
+    "column": 2,
+    "question": "How many Headlamp units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 42,
+    "column": 3,
+    "question": "How many Headlamp units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 42,
+    "column": 4,
+    "question": "How many Headlamp units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 42,
+    "column": 5,
+    "question": "How many Headlamp units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 43,
+    "column": 2,
+    "question": "How many Headlamp units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 43,
+    "column": 3,
+    "question": "How many Headlamp units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 43,
+    "column": 4,
+    "question": "How many Headlamp units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 43,
+    "column": 5,
+    "question": "How many Headlamp units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 44,
+    "column": 2,
+    "question": "How many Headlamp units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 44,
+    "column": 3,
+    "question": "How many Headlamp units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 44,
+    "column": 4,
+    "question": "How many Headlamp units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 44,
+    "column": 5,
+    "question": "How many Headlamp units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 45,
+    "column": 2,
+    "question": "How many Headlamp units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 45,
+    "column": 3,
+    "question": "How many Headlamp units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 45,
+    "column": 4,
+    "question": "How many Headlamp units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 45,
+    "column": 5,
+    "question": "How many Headlamp units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 46,
+    "column": 2,
+    "question": "How many Headlamp units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 46,
+    "column": 3,
+    "question": "How many Headlamp units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 46,
+    "column": 4,
+    "question": "How many Headlamp units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 46,
+    "column": 5,
+    "question": "How many Headlamp units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 47,
+    "column": 2,
+    "question": "How many Headlamp units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 47,
+    "column": 3,
+    "question": "How many Headlamp units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 47,
+    "column": 4,
+    "question": "How many Headlamp units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 47,
+    "column": 5,
+    "question": "How many Headlamp units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 48,
+    "column": 2,
+    "question": "How many Wool Base Layer units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 48,
+    "column": 3,
+    "question": "How many Wool Base Layer units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 48,
+    "column": 4,
+    "question": "How many Wool Base Layer units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 48,
+    "column": 5,
+    "question": "How many Wool Base Layer units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 49,
+    "column": 2,
+    "question": "How many Wool Base Layer units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 49,
+    "column": 3,
+    "question": "How many Wool Base Layer units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 49,
+    "column": 4,
+    "question": "How many Wool Base Layer units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 49,
+    "column": 5,
+    "question": "How many Wool Base Layer units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 50,
+    "column": 2,
+    "question": "How many Wool Base Layer units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 50,
+    "column": 3,
+    "question": "How many Wool Base Layer units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 50,
+    "column": 4,
+    "question": "How many Wool Base Layer units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 50,
+    "column": 5,
+    "question": "How many Wool Base Layer units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 51,
+    "column": 2,
+    "question": "How many Wool Base Layer units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 51,
+    "column": 3,
+    "question": "How many Wool Base Layer units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 51,
+    "column": 4,
+    "question": "How many Wool Base Layer units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 51,
+    "column": 5,
+    "question": "How many Wool Base Layer units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 52,
+    "column": 2,
+    "question": "How many Wool Base Layer units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 52,
+    "column": 3,
+    "question": "How many Wool Base Layer units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 52,
+    "column": 4,
+    "question": "How many Wool Base Layer units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 52,
+    "column": 5,
+    "question": "How many Wool Base Layer units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 53,
+    "column": 2,
+    "question": "How many Wool Base Layer units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 53,
+    "column": 3,
+    "question": "How many Wool Base Layer units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 53,
+    "column": 4,
+    "question": "How many Wool Base Layer units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 53,
+    "column": 5,
+    "question": "How many Wool Base Layer units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 54,
+    "column": 2,
+    "question": "How many Insulated Bottle units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 54,
+    "column": 3,
+    "question": "How many Insulated Bottle units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 54,
+    "column": 4,
+    "question": "How many Insulated Bottle units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 54,
+    "column": 5,
+    "question": "How many Insulated Bottle units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 55,
+    "column": 2,
+    "question": "How many Insulated Bottle units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 55,
+    "column": 3,
+    "question": "How many Insulated Bottle units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 55,
+    "column": 4,
+    "question": "How many Insulated Bottle units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 55,
+    "column": 5,
+    "question": "How many Insulated Bottle units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 56,
+    "column": 2,
+    "question": "How many Insulated Bottle units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 56,
+    "column": 3,
+    "question": "How many Insulated Bottle units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 56,
+    "column": 4,
+    "question": "How many Insulated Bottle units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 56,
+    "column": 5,
+    "question": "How many Insulated Bottle units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 57,
+    "column": 2,
+    "question": "How many Insulated Bottle units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 57,
+    "column": 3,
+    "question": "How many Insulated Bottle units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 57,
+    "column": 4,
+    "question": "How many Insulated Bottle units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 57,
+    "column": 5,
+    "question": "How many Insulated Bottle units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 58,
+    "column": 2,
+    "question": "How many Insulated Bottle units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 58,
+    "column": 3,
+    "question": "How many Insulated Bottle units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 58,
+    "column": 4,
+    "question": "How many Insulated Bottle units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 58,
+    "column": 5,
+    "question": "How many Insulated Bottle units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 59,
+    "column": 2,
+    "question": "How many Insulated Bottle units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 59,
+    "column": 3,
+    "question": "How many Insulated Bottle units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 59,
+    "column": 4,
+    "question": "How many Insulated Bottle units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 59,
+    "column": 5,
+    "question": "How many Insulated Bottle units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 60,
+    "column": 2,
+    "question": "How many Daypack 28L units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 60,
+    "column": 3,
+    "question": "How many Daypack 28L units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 60,
+    "column": 4,
+    "question": "How many Daypack 28L units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 60,
+    "column": 5,
+    "question": "How many Daypack 28L units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 61,
+    "column": 2,
+    "question": "How many Daypack 28L units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 61,
+    "column": 3,
+    "question": "How many Daypack 28L units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 61,
+    "column": 4,
+    "question": "How many Daypack 28L units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 61,
+    "column": 5,
+    "question": "How many Daypack 28L units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 62,
+    "column": 2,
+    "question": "How many Daypack 28L units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 62,
+    "column": 3,
+    "question": "How many Daypack 28L units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 62,
+    "column": 4,
+    "question": "How many Daypack 28L units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 62,
+    "column": 5,
+    "question": "How many Daypack 28L units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 63,
+    "column": 2,
+    "question": "How many Daypack 28L units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 63,
+    "column": 3,
+    "question": "How many Daypack 28L units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 63,
+    "column": 4,
+    "question": "How many Daypack 28L units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 63,
+    "column": 5,
+    "question": "How many Daypack 28L units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 64,
+    "column": 2,
+    "question": "How many Daypack 28L units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 64,
+    "column": 3,
+    "question": "How many Daypack 28L units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 64,
+    "column": 4,
+    "question": "How many Daypack 28L units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 64,
+    "column": 5,
+    "question": "How many Daypack 28L units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 65,
+    "column": 2,
+    "question": "How many Daypack 28L units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 65,
+    "column": 3,
+    "question": "How many Daypack 28L units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 65,
+    "column": 4,
+    "question": "How many Daypack 28L units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 65,
+    "column": 5,
+    "question": "How many Daypack 28L units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 66,
+    "column": 2,
+    "question": "How many Water Filter units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 66,
+    "column": 3,
+    "question": "How many Water Filter units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 66,
+    "column": 4,
+    "question": "How many Water Filter units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 66,
+    "column": 5,
+    "question": "How many Water Filter units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 67,
+    "column": 2,
+    "question": "How many Water Filter units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 67,
+    "column": 3,
+    "question": "How many Water Filter units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 67,
+    "column": 4,
+    "question": "How many Water Filter units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 67,
+    "column": 5,
+    "question": "How many Water Filter units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 68,
+    "column": 2,
+    "question": "How many Water Filter units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 68,
+    "column": 3,
+    "question": "How many Water Filter units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 68,
+    "column": 4,
+    "question": "How many Water Filter units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 68,
+    "column": 5,
+    "question": "How many Water Filter units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 69,
+    "column": 2,
+    "question": "How many Water Filter units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 69,
+    "column": 3,
+    "question": "How many Water Filter units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 69,
+    "column": 4,
+    "question": "How many Water Filter units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 69,
+    "column": 5,
+    "question": "How many Water Filter units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 70,
+    "column": 2,
+    "question": "How many Water Filter units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 70,
+    "column": 3,
+    "question": "How many Water Filter units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 70,
+    "column": 4,
+    "question": "How many Water Filter units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 70,
+    "column": 5,
+    "question": "How many Water Filter units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 71,
+    "column": 2,
+    "question": "How many Water Filter units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 71,
+    "column": 3,
+    "question": "How many Water Filter units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 71,
+    "column": 4,
+    "question": "How many Water Filter units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 71,
+    "column": 5,
+    "question": "How many Water Filter units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 72,
+    "column": 2,
+    "question": "How many Climbing Harness units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 72,
+    "column": 3,
+    "question": "How many Climbing Harness units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 72,
+    "column": 4,
+    "question": "How many Climbing Harness units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 72,
+    "column": 5,
+    "question": "How many Climbing Harness units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 73,
+    "column": 2,
+    "question": "How many Climbing Harness units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 73,
+    "column": 3,
+    "question": "How many Climbing Harness units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 73,
+    "column": 4,
+    "question": "How many Climbing Harness units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 73,
+    "column": 5,
+    "question": "How many Climbing Harness units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 74,
+    "column": 2,
+    "question": "How many Climbing Harness units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 74,
+    "column": 3,
+    "question": "How many Climbing Harness units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 74,
+    "column": 4,
+    "question": "How many Climbing Harness units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 74,
+    "column": 5,
+    "question": "How many Climbing Harness units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 75,
+    "column": 2,
+    "question": "How many Climbing Harness units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 75,
+    "column": 3,
+    "question": "How many Climbing Harness units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 75,
+    "column": 4,
+    "question": "How many Climbing Harness units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 75,
+    "column": 5,
+    "question": "How many Climbing Harness units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 76,
+    "column": 2,
+    "question": "How many Climbing Harness units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 76,
+    "column": 3,
+    "question": "How many Climbing Harness units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 76,
+    "column": 4,
+    "question": "How many Climbing Harness units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 76,
+    "column": 5,
+    "question": "How many Climbing Harness units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 77,
+    "column": 2,
+    "question": "How many Climbing Harness units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 77,
+    "column": 3,
+    "question": "How many Climbing Harness units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 77,
+    "column": 4,
+    "question": "How many Climbing Harness units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 77,
+    "column": 5,
+    "question": "How many Climbing Harness units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 78,
+    "column": 2,
+    "question": "How many Gaiters units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 78,
+    "column": 3,
+    "question": "How many Gaiters units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 78,
+    "column": 4,
+    "question": "How many Gaiters units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 78,
+    "column": 5,
+    "question": "How many Gaiters units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 79,
+    "column": 2,
+    "question": "How many Gaiters units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 79,
+    "column": 3,
+    "question": "How many Gaiters units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 79,
+    "column": 4,
+    "question": "How many Gaiters units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 79,
+    "column": 5,
+    "question": "How many Gaiters units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 80,
+    "column": 2,
+    "question": "How many Gaiters units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 80,
+    "column": 3,
+    "question": "How many Gaiters units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 80,
+    "column": 4,
+    "question": "How many Gaiters units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 80,
+    "column": 5,
+    "question": "How many Gaiters units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 81,
+    "column": 2,
+    "question": "How many Gaiters units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 81,
+    "column": 3,
+    "question": "How many Gaiters units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 81,
+    "column": 4,
+    "question": "How many Gaiters units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 81,
+    "column": 5,
+    "question": "How many Gaiters units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 82,
+    "column": 2,
+    "question": "How many Gaiters units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 82,
+    "column": 3,
+    "question": "How many Gaiters units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 82,
+    "column": 4,
+    "question": "How many Gaiters units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 82,
+    "column": 5,
+    "question": "How many Gaiters units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 83,
+    "column": 2,
+    "question": "How many Gaiters units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 83,
+    "column": 3,
+    "question": "How many Gaiters units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 83,
+    "column": 4,
+    "question": "How many Gaiters units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 83,
+    "column": 5,
+    "question": "How many Gaiters units were sold in the Southwest region in Q4?"
+   },
+   {
+    "row": 84,
+    "column": 2,
+    "question": "How many Fleece Pullover units were sold in the Northeast region in Q1?"
+   },
+   {
+    "row": 84,
+    "column": 3,
+    "question": "How many Fleece Pullover units were sold in the Northeast region in Q2?"
+   },
+   {
+    "row": 84,
+    "column": 4,
+    "question": "How many Fleece Pullover units were sold in the Northeast region in Q3?"
+   },
+   {
+    "row": 84,
+    "column": 5,
+    "question": "How many Fleece Pullover units were sold in the Northeast region in Q4?"
+   },
+   {
+    "row": 85,
+    "column": 2,
+    "question": "How many Fleece Pullover units were sold in the Southeast region in Q1?"
+   },
+   {
+    "row": 85,
+    "column": 3,
+    "question": "How many Fleece Pullover units were sold in the Southeast region in Q2?"
+   },
+   {
+    "row": 85,
+    "column": 4,
+    "question": "How many Fleece Pullover units were sold in the Southeast region in Q3?"
+   },
+   {
+    "row": 85,
+    "column": 5,
+    "question": "How many Fleece Pullover units were sold in the Southeast region in Q4?"
+   },
+   {
+    "row": 86,
+    "column": 2,
+    "question": "How many Fleece Pullover units were sold in the Midwest region in Q1?"
+   },
+   {
+    "row": 86,
+    "column": 3,
+    "question": "How many Fleece Pullover units were sold in the Midwest region in Q2?"
+   },
+   {
+    "row": 86,
+    "column": 4,
+    "question": "How many Fleece Pullover units were sold in the Midwest region in Q3?"
+   },
+   {
+    "row": 86,
+    "column": 5,
+    "question": "How many Fleece Pullover units were sold in the Midwest region in Q4?"
+   },
+   {
+    "row": 87,
+    "column": 2,
+    "question": "How many Fleece Pullover units were sold in the Mountain region in Q1?"
+   },
+   {
+    "row": 87,
+    "column": 3,
+    "question": "How many Fleece Pullover units were sold in the Mountain region in Q2?"
+   },
+   {
+    "row": 87,
+    "column": 4,
+    "question": "How many Fleece Pullover units were sold in the Mountain region in Q3?"
+   },
+   {
+    "row": 87,
+    "column": 5,
+    "question": "How many Fleece Pullover units were sold in the Mountain region in Q4?"
+   },
+   {
+    "row": 88,
+    "column": 2,
+    "question": "How many Fleece Pullover units were sold in the Pacific region in Q1?"
+   },
+   {
+    "row": 88,
+    "column": 3,
+    "question": "How many Fleece Pullover units were sold in the Pacific region in Q2?"
+   },
+   {
+    "row": 88,
+    "column": 4,
+    "question": "How many Fleece Pullover units were sold in the Pacific region in Q3?"
+   },
+   {
+    "row": 88,
+    "column": 5,
+    "question": "How many Fleece Pullover units were sold in the Pacific region in Q4?"
+   },
+   {
+    "row": 89,
+    "column": 2,
+    "question": "How many Fleece Pullover units were sold in the Southwest region in Q1?"
+   },
+   {
+    "row": 89,
+    "column": 3,
+    "question": "How many Fleece Pullover units were sold in the Southwest region in Q2?"
+   },
+   {
+    "row": 89,
+    "column": 4,
+    "question": "How many Fleece Pullover units were sold in the Southwest region in Q3?"
+   },
+   {
+    "row": 89,
+    "column": 5,
+    "question": "How many Fleece Pullover units were sold in the Southwest region in Q4?"
+   }
+  ],
+  "facts": [
+   {
+    "question": "How many units did Trailhead Outfitters sell in 2025?",
+    "sentence": "Trailhead Outfitters sold 115,444 units across its 15 products and 6 regions in 2025."
+   },
+   {
+    "question": "Which product sold the most units in 2025?",
+    "sentence": "Trail Shoes was the best-selling product with 11,852 units, and Gaiters sold the fewest, with 2,985 units."
+   },
+   {
+    "question": "Which region was the strongest in 2025?",
+    "sentence": "Pacific was the strongest region with 29,305 units, ahead of Mountain with 21,677 units."
+   },
+   {
+    "question": "Which quarter had the most unit sales?",
+    "sentence": "The strongest quarter was Q4, with 36,978 units, and the weakest was Q1, with 20,461 units."
+   },
+   {
+    "question": "What share of units were sold online?",
+    "sentence": "Online orders accounted for 31% of all units, up from 26% in 2024."
+   },
+   {
+    "question": "How many stores does the Pacific region operate?",
+    "sentence": "The Pacific region operates 19 stores, more than any other region."
+   },
+   {
+    "question": "When are online orders counted as sold?",
+    "sentence": "Units are counted at the point of sale for stores and at the dispatch date for online orders."
+   },
+   {
+    "question": "Are returns deducted from the sales figures?",
+    "sentence": "Returns are not deducted from the quarter in which the sale was recorded; they are reported separately in the finance pack."
+   },
+   {
+    "question": "Which states does the Mountain region cover?",
+    "sentence": "The Mountain region covers Colorado, Utah and Wyoming."
+   },
+   {
+    "question": "Which temporary store is included in the Mountain region figures?",
+    "sentence": "Figures for the Mountain region include the Boulder pop-up store, which traded from 1 June to 30 September 2025 and is not counted among the 9 permanent stores."
+   },
+   {
+    "question": "When did the Camp Stove promotion run?",
+    "sentence": "Camp Stove sales in the fourth quarter include a promotion that ran from 24 to 30 November 2025."
+   },
+   {
+    "question": "When will the next regional report be published?",
+    "sentence": "The next regional report covers the first half of 2026 and will be published in August 2026."
+   },
+   {
+    "question": "How are the totals checked?",
+    "sentence": "Totals are the sum of the four quarters and are reconciled to the finance system every January."
+   }
+  ],
+  "table_questions": [
+   "What does Table 1 show?",
+   "Where can I find units sold by product and region?",
+   "Which table has quarterly unit sales?",
+   "What is Table 1 about?"
+  ]
+ }
+}
