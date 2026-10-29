@@ -53,7 +53,7 @@
     "pattern": "plan feature",
     "n": 24,
     "correct_at_3": 87.5,
-    "correct_at_1": 45.8
+    "correct_at_1": 58.3
   },
   {
     "doc": "northwind_service_plans.docx",
@@ -76,15 +76,15 @@
     "chunker": "layout_md_tables",
     "pattern": "plan feature",
     "n": 24,
-    "correct_at_3": 95.8,
-    "correct_at_1": 45.8
+    "correct_at_3": 91.7,
+    "correct_at_1": 41.7
   },
   {
     "doc": "northwind_service_plans.docx",
     "chunker": "layout_md_tables",
     "pattern": "text fact",
     "n": 12,
-    "correct_at_3": 100.0,
+    "correct_at_3": 91.7,
     "correct_at_1": 58.3
   },
   {
@@ -101,15 +101,15 @@
     "pattern": "plan feature",
     "n": 24,
     "correct_at_3": 83.3,
-    "correct_at_1": 29.2
+    "correct_at_1": 25.0
   },
   {
     "doc": "northwind_service_plans.docx",
     "chunker": "layout_stitched",
     "pattern": "text fact",
     "n": 12,
-    "correct_at_3": 91.7,
-    "correct_at_1": 58.3
+    "correct_at_3": 100.0,
+    "correct_at_1": 50.0
   },
   {
     "doc": "northwind_service_plans.docx",
@@ -180,7 +180,7 @@
     "chunker": "layout_default",
     "pattern": "text fact",
     "n": 12,
-    "correct_at_3": 100.0,
+    "correct_at_3": 83.3,
     "correct_at_1": 50.0
   },
   {
@@ -197,7 +197,7 @@
     "pattern": "number lookup",
     "n": 24,
     "correct_at_3": 33.3,
-    "correct_at_1": 20.8
+    "correct_at_1": 29.2
   },
   {
     "doc": "trailhead_regional_sales.pdf",
@@ -205,7 +205,7 @@
     "pattern": "text fact",
     "n": 12,
     "correct_at_3": 83.3,
-    "correct_at_1": 66.7
+    "correct_at_1": 58.3
   },
   {
     "doc": "trailhead_regional_sales.pdf",
@@ -220,7 +220,7 @@
     "chunker": "layout_stitched",
     "pattern": "number lookup",
     "n": 24,
-    "correct_at_3": 91.7,
+    "correct_at_3": 95.8,
     "correct_at_1": 50.0
   },
   {
@@ -229,7 +229,7 @@
     "pattern": "text fact",
     "n": 12,
     "correct_at_3": 58.3,
-    "correct_at_1": 50.0
+    "correct_at_1": 41.7
   },
   {
     "doc": "trailhead_regional_sales.pdf",

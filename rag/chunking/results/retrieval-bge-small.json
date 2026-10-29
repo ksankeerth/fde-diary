@@ -1,0 +1,242 @@
+[
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "fixed_size",
+    "pattern": "plan feature",
+    "n": 24,
+    "correct_at_3": 45.8,
+    "correct_at_1": 16.7
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "fixed_size",
+    "pattern": "text fact",
+    "n": 12,
+    "correct_at_3": 83.3,
+    "correct_at_1": 58.3
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "fixed_size",
+    "pattern": "what is this table",
+    "n": 4,
+    "correct_at_3": 100.0,
+    "correct_at_1": 100.0
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "recursive",
+    "pattern": "plan feature",
+    "n": 24,
+    "correct_at_3": 8.3,
+    "correct_at_1": 0.0
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "recursive",
+    "pattern": "text fact",
+    "n": 12,
+    "correct_at_3": 91.7,
+    "correct_at_1": 66.7
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "recursive",
+    "pattern": "what is this table",
+    "n": 4,
+    "correct_at_3": 75.0,
+    "correct_at_1": 0.0
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "layout_default",
+    "pattern": "plan feature",
+    "n": 24,
+    "correct_at_3": 75.0,
+    "correct_at_1": 37.5
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "layout_default",
+    "pattern": "text fact",
+    "n": 12,
+    "correct_at_3": 83.3,
+    "correct_at_1": 66.7
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "layout_default",
+    "pattern": "what is this table",
+    "n": 4,
+    "correct_at_3": 100.0,
+    "correct_at_1": 100.0
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "layout_md_tables",
+    "pattern": "plan feature",
+    "n": 24,
+    "correct_at_3": 83.3,
+    "correct_at_1": 16.7
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "layout_md_tables",
+    "pattern": "text fact",
+    "n": 12,
+    "correct_at_3": 91.7,
+    "correct_at_1": 75.0
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "layout_md_tables",
+    "pattern": "what is this table",
+    "n": 4,
+    "correct_at_3": 100.0,
+    "correct_at_1": 100.0
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "layout_stitched",
+    "pattern": "plan feature",
+    "n": 24,
+    "correct_at_3": 66.7,
+    "correct_at_1": 8.3
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "layout_stitched",
+    "pattern": "text fact",
+    "n": 12,
+    "correct_at_3": 91.7,
+    "correct_at_1": 75.0
+  },
+  {
+    "doc": "northwind_service_plans.docx",
+    "chunker": "layout_stitched",
+    "pattern": "what is this table",
+    "n": 4,
+    "correct_at_3": 100.0,
+    "correct_at_1": 50.0
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "fixed_size",
+    "pattern": "number lookup",
+    "n": 24,
+    "correct_at_3": 33.3,
+    "correct_at_1": 16.7
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "fixed_size",
+    "pattern": "text fact",
+    "n": 12,
+    "correct_at_3": 83.3,
+    "correct_at_1": 41.7
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "fixed_size",
+    "pattern": "what is this table",
+    "n": 4,
+    "correct_at_3": 50.0,
+    "correct_at_1": 50.0
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "recursive",
+    "pattern": "number lookup",
+    "n": 24,
+    "correct_at_3": 20.8,
+    "correct_at_1": 0.0
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "recursive",
+    "pattern": "text fact",
+    "n": 12,
+    "correct_at_3": 100.0,
+    "correct_at_1": 83.3
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "recursive",
+    "pattern": "what is this table",
+    "n": 4,
+    "correct_at_3": 75.0,
+    "correct_at_1": 50.0
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "layout_default",
+    "pattern": "number lookup",
+    "n": 24,
+    "correct_at_3": 29.2,
+    "correct_at_1": 20.8
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "layout_default",
+    "pattern": "text fact",
+    "n": 12,
+    "correct_at_3": 100.0,
+    "correct_at_1": 75.0
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "layout_default",
+    "pattern": "what is this table",
+    "n": 4,
+    "correct_at_3": 100.0,
+    "correct_at_1": 100.0
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "layout_md_tables",
+    "pattern": "number lookup",
+    "n": 24,
+    "correct_at_3": 33.3,
+    "correct_at_1": 16.7
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "layout_md_tables",
+    "pattern": "text fact",
+    "n": 12,
+    "correct_at_3": 100.0,
+    "correct_at_1": 75.0
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "layout_md_tables",
+    "pattern": "what is this table",
+    "n": 4,
+    "correct_at_3": 100.0,
+    "correct_at_1": 100.0
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "layout_stitched",
+    "pattern": "number lookup",
+    "n": 24,
+    "correct_at_3": 83.3,
+    "correct_at_1": 0.0
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "layout_stitched",
+    "pattern": "text fact",
+    "n": 12,
+    "correct_at_3": 75.0,
+    "correct_at_1": 75.0
+  },
+  {
+    "doc": "trailhead_regional_sales.pdf",
+    "chunker": "layout_stitched",
+    "pattern": "what is this table",
+    "n": 4,
+    "correct_at_3": 100.0,
+    "correct_at_1": 100.0
+  }
+]

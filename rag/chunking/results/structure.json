@@ -31,16 +31,16 @@
     "table_chunks": 7,
     "header_pct": 100.0,
     "caption_pct": 0.0,
-    "rows_intact_pct": 87.5,
+    "rows_intact_pct": 85.0,
     "heading_pct": 100.0,
-    "cut_sentences_pct": 20.0
+    "cut_sentences_pct": 35.0
   },
   {
     "doc": "northwind_service_plans.docx",
     "chunker": "layout_md_tables",
     "chunks": 19,
-    "avg_chars": 653,
-    "table_chunks": 6,
+    "avg_chars": 662,
+    "table_chunks": 7,
     "header_pct": 100.0,
     "caption_pct": 0.0,
     "rows_intact_pct": 100.0,
@@ -91,9 +91,9 @@
     "table_chunks": 20,
     "header_pct": 10.0,
     "caption_pct": 0.0,
-    "rows_intact_pct": 80.0,
+    "rows_intact_pct": 82.2,
     "heading_pct": 100.0,
-    "cut_sentences_pct": 47.8
+    "cut_sentences_pct": 60.9
   },
   {
     "doc": "trailhead_regional_sales.pdf",
@@ -110,9 +110,9 @@
   {
     "doc": "trailhead_regional_sales.pdf",
     "chunker": "layout_stitched",
-    "chunks": 46,
-    "avg_chars": 673,
-    "table_chunks": 44,
+    "chunks": 47,
+    "avg_chars": 670,
+    "table_chunks": 45,
     "header_pct": 100.0,
     "caption_pct": 100.0,
     "rows_intact_pct": 98.9,

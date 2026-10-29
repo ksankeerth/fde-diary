@@ -4,7 +4,7 @@ import json
 from lab import CHUNKERS, DATA, DOCS
 from questions import questions
 from run_benchmark import RESULTS, norm, pct, row_intact
-from search import build_index, search
+from search import MODEL_KEY, build_index, search
 
 
 def diagnose(chunk, q, rows):
@@ -79,8 +79,9 @@ if __name__ == "__main__":
         for cname, chunker in CHUNKERS.items():
             all_outs[doc, cname] = outcomes(doc, chunker, qs)
             records += evaluate(doc, cname, qs, all_outs[doc, cname])
-    (RESULTS / "retrieval.json").write_text(json.dumps(records, indent=2))
+    suffix = "" if MODEL_KEY == "minilm" else f"-{MODEL_KEY}"  # minilm keeps the original file names
+    (RESULTS / f"retrieval{suffix}.json").write_text(json.dumps(records, indent=2))
     md = to_markdown(records)
-    (RESULTS / "retrieval.md").write_text(md)
-    (RESULTS / "per_question.md").write_text(per_question(all_outs))
+    (RESULTS / f"retrieval{suffix}.md").write_text(md)
+    (RESULTS / f"per_question{suffix}.md").write_text(per_question(all_outs))
     print(md)

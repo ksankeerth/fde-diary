@@ -60,8 +60,8 @@ def recursive(path):
 def _tokenizer():
     from docling_core.transforms.chunker.tokenizer.huggingface import HuggingFaceTokenizer
 
-    # 256 MiniLM tokens is roughly 1000 characters, the same budget as the baselines
-    return HuggingFaceTokenizer.from_pretrained(model_name="sentence-transformers/all-MiniLM-L6-v2", max_tokens=256)
+    # 254 = MiniLM's 256 minus [CLS] and [SEP]; roughly 1000 characters, the same budget as the baselines
+    return HuggingFaceTokenizer.from_pretrained(model_name="sentence-transformers/all-MiniLM-L6-v2", max_tokens=254)
 
 
 def _hybrid(path, doc=None, caption_in_every_chunk=False, **chunker_args):
